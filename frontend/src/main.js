@@ -1,27 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import {routes} from "./routes/router";
-import VueRouter from "vue-router";
-import Vuex from "vuex";
-import {stores} from './stores/store';
-import './registerServiceWorker'
+import vuetify from './plugins/vuetify'
+import router from './router'
 
-Vue.use(Vuex);
-Vue.use(VueRouter);
-
-const router = new VueRouter({
-  routes,
-  mode: 'history',
-});
-
-const store = new Vuex.Store(
-  stores
-);
-
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  vuetify,
   router,
-  store
-}).$mount('#app');
+  render: h => h(App)
+}).$mount('#app')
