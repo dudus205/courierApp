@@ -1,4 +1,5 @@
 using DistributedTravelingSalesman.Service;
+using DistributedTravellingSalesman.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,7 +22,7 @@ namespace DistributedTravelingSalesman
         {
             services.AddScoped<IGraphService, GraphService>();
             services.AddSingleton<IWorkerService, WorkerService>();
-
+            services.AddDbContext<TravellingSalesmanDbContext>();
             services.AddControllersWithViews();
         }
 

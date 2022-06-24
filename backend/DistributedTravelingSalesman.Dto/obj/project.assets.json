@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DistributedTravelingSalesman.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DistributedTravelingSalesman.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DistributedTravelingSalesman.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistributedTravelingSalesman.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DistributedTravelingSalesman.Domain/DistributedTravelingSalesman.Domain.csproj",
+      "msbuildProject": "../DistributedTravelingSalesman.Domain/DistributedTravelingSalesman.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DistributedTravelingSalesman.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/pp/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Dto/DistributedTravelingSalesman.Dto.csproj",
+      "projectName": "DistributedTravelingSalesman.Dto",
+      "projectPath": "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Dto/DistributedTravelingSalesman.Dto.csproj",
+      "packagesPath": "/Users/pp/.nuget/packages/",
+      "outputPath": "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Dto/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/pp/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/DistributedTravelingSalesman.Domain.csproj": {
+              "projectPath": "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/DistributedTravelingSalesman.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/pp/.dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

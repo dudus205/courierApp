@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6KSA+ZBOHFOAWBzf654ciN7dtspBresfdcyWoS3QOYg=",
+  "Source": "DistributedTravelingSalesman.Worker",
+  "BasePath": "_content/DistributedTravelingSalesman.Worker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,15 @@
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.deps.json
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.csproj.AssemblyReference.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.AssemblyInfoInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.AssemblyInfo.cs
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.csproj.CoreCompileInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.csproj.CopyComplete
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/refint/DistributedTravellingSalesman.Infrasctructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrasctructure.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrasctructure/obj/Debug/net6.0/ref/DistributedTravellingSalesman.Infrasctructure.dll
