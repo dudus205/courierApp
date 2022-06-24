@@ -1,4 +1,4 @@
-namespace DistributedTravelingSalesman.Controllers;
+namespace DistributedTravelingSalesman.Dto;
 
 public class DeliverParcelDto
 {

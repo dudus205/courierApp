@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DistributedTravelingSalesman.Controllers;
 
-[ApiController]
 public class UserController : ControllerBase
 {
     public TravellingSalesmanDbContext Context { get; }
