@@ -1,5 +1,5 @@
 <template>
-  <v-container fill-height fluid class="login">
+  <v-container fill-height fluid class="login justify-center">
     <v-col cols="6">
       <v-card flat color="">
         <v-card-title>Smart kurier</v-card-title>
@@ -9,6 +9,7 @@
               label="E-mail"
               v-model="email"
               :rules="emailRules"
+              outlined
               required
           ></v-text-field>
           <v-text-field
@@ -19,11 +20,11 @@
               :append-icon-cb="() => (e1 = !e1)"
               :type="e1 ? 'password' : 'text'"
               :rules="passwordRules"
-              counter
+              outlined
               required
           ></v-text-field>
           <v-layout justify-end>
-            <v-btn outlined @click="submit" :class=" { 'blue darken-4 white--text' : valid, disabled: !valid }">Login
+            <v-btn outlined>Zaloguj
             </v-btn>
           </v-layout>
         </v-card-text>
@@ -51,6 +52,11 @@ export default {
         (v) => !!v || 'E-mail jest wymagany',
         (v) => passwordRegexp.test(v) || 'Proszę podać prawidłowy e-mail'
       ],
+    }
+  },
+  methods: {
+    async login() {
+
     }
   }
 }
