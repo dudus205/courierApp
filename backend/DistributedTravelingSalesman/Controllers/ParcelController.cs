@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DistributedTravelingSalesman.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class ParcelController : ControllerBase
 {
     public ParcelController(TravellingSalesmanDbContext context)

@@ -1,0 +1,17 @@
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.deps.json
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.runtimeconfig.json
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.csproj.AssemblyReference.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.AssemblyInfoInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.AssemblyInfo.cs
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.csproj.CopyComplete
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/refint/DistributedTravellingSalesman.Infrastructure.dll
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.pdb
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/DistributedTravellingSalesman.Infrastructure.genruntimeconfig.cache
+/Users/pp/src/courierApp/backend/DistributedTravellingSalesman.Infrastructure/obj/Debug/net6.0/ref/DistributedTravellingSalesman.Infrastructure.dll

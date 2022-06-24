@@ -1,7 +1,7 @@
 <template>
   <v-container fill-height fluid class="login justify-center">
     <v-col cols="6">
-      <v-card flat color="">
+      <v-card text color="">
         <v-card-title>Smart kurier</v-card-title>
         <v-card-subtitle>Projekt IUI - 2022</v-card-subtitle>
         <v-card-text class="pt-4">
@@ -23,8 +23,9 @@
               outlined
               required
           ></v-text-field>
-          <v-layout justify-end>
-            <v-btn outlined>Zaloguj
+          <v-layout justify-space-between>
+            <v-btn plain :to="{name: 'register'}">Zarejestruj się</v-btn>
+            <v-btn @click="login" outlined>Zaloguj
             </v-btn>
           </v-layout>
         </v-card-text>
@@ -34,6 +35,8 @@
 </template>
 
 <script>
+
+import {TYPE} from "vue-toastification";
 
 const passwordRegexp = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -56,7 +59,13 @@ export default {
   },
   methods: {
     async login() {
-
+      const response = await this.$axios.post('user/login', {email: this.email, password: this.password});
+      if (response.status === 200) {
+        await this.$router.push({name: 'home'})
+        this.$toast("Logowanie pomyślne!", {type: TYPE.SUCCESS})
+      } else {
+        this.$toast("Wprowadzone hasło jest nieprawidłowe", {type: TYPE.ERROR})
+      }
     }
   }
 }

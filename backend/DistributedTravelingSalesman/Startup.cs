@@ -23,6 +23,7 @@ namespace DistributedTravelingSalesman
             services.AddScoped<IGraphService, GraphService>();
             services.AddSingleton<IWorkerService, WorkerService>();
             services.AddDbContext<TravellingSalesmanDbContext>();
+            services.AddCors();
             services.AddControllersWithViews();
         }
 
@@ -45,6 +46,7 @@ namespace DistributedTravelingSalesman
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {

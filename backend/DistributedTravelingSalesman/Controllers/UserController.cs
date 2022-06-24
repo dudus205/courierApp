@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DistributedTravelingSalesman.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class UserController : ControllerBase
 {
     public TravellingSalesmanDbContext Context { get; }
@@ -16,7 +18,7 @@ public class UserController : ControllerBase
         Context = context;
     }
 
-    [HttpPost]
+    [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterDto data)
     {
         if (data.Password != data.Password2)
@@ -31,9 +33,12 @@ public class UserController : ControllerBase
 
         await Context.Users.AddAsync(user);
 
+        await Context.SaveChangesAsync();
+
         return Ok();
     }
 
+    [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto data)
     {
         var user = await Context.Users.FirstOrDefaultAsync(x => x.Email == data.Email);

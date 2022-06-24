@@ -1,0 +1,12 @@
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.deps.json
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.dll
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/bin/Debug/net6.0/DistributedTravelingSalesman.Domain.pdb
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.csproj.AssemblyReference.cache
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.AssemblyInfoInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.AssemblyInfo.cs
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.csproj.CoreCompileInputs.cache
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.dll
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/refint/DistributedTravelingSalesman.Domain.dll
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/DistributedTravelingSalesman.Domain.pdb
+/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/obj/Debug/net6.0/ref/DistributedTravelingSalesman.Domain.dll

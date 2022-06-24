@@ -2,10 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import AppLogin from "@/views/AppLogin";
 import DefaultLayout from "@/layouts/DefaultLayout";
-import AppMap from "@/views/AppMap";
-import AppScanner from "@/views/AppScanner";
 import AppParcels from "@/views/AppParcels";
 import AppHome from "@/views/AppHome";
+import AppRegister from "@/views/AppRegister";
 
 Vue.use(VueRouter)
 
@@ -16,6 +15,11 @@ const routes = [
         component: AppLogin,
     },
     {
+        path: '/register',
+        name: 'register',
+        component: AppRegister,
+    },
+    {
         path: '/',
         component: DefaultLayout,
         children: [{
@@ -23,15 +27,11 @@ const routes = [
             redirect: "/home"
         }, {
             path: "/home",
+            name: "home",
             component: AppHome
         }, {
-            path: "/map",
-            component: AppMap
-        }, {
-            path: "/scanner",
-            component: AppScanner
-        }, {
             path: "/parcel",
+            name: "parcel",
             component: AppParcels
         }]
     }

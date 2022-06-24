@@ -16,8 +16,8 @@ namespace DistributedTravelingSalesman
             return Host.CreateDefaultBuilder(args)
                 .ConfigureLogging(x =>
                 {
-                    x.ClearProviders();
                     x.AddConsole();
+                    x.AddDebug();
                 })
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
         }

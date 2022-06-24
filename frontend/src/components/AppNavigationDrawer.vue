@@ -44,8 +44,6 @@ export default {
       items: [
         {title: 'Strona główna', icon: 'mdi-home', route: '/home'},
         {title: 'Paczki', icon: 'mdi-truck', route: '/parcel'},
-        {title: 'Mapa', icon: 'mdi-map', route: '/map'},
-        {title: 'Skanuj kod', icon: 'mdi-qrcode-scan', route: '/scanner'}
       ]
     }
   }
