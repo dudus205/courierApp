@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CFO2LpoyXNEtxxzzQ6LCU0m+4pyNN+tilvA+BqHxZYbu1hSnA3+ftsG3mRNLCNO1BpR/83+gIbWCz9DMwHaYbQ==",
+  "dgSpecHash": "YiPyBwA49RI4wzXn/nGOrY3/Wmyzjf5JL2stkQLpFo7xZWAQCAA0br9qcz81AwyMqTLs1cFdkAYCzFqaLNiV7A==",
   "success": true,
   "projectFilePath": "/Users/pp/src/courierApp/backend/DistributedTravelingSalesman.Domain/DistributedTravelingSalesman.Domain.csproj",
   "expectedPackageFiles": [],

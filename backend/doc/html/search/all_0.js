@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['_2enetcoreapp_2cversion_3dv6_2e0_2eassemblyattributes_2ecs_0',['.NETCoreApp,Version=v6.0.AssemblyAttributes.cs',['../_distributed_traveling_salesman_8_domain_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_distributed_traveling_salesman_8_dto_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_distributed_traveling_salesman_8_worker_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_distributed_traveling_salesman_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_distributed_travelling_salesman_8_infrastructure_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_veeaf63ec519c29c7138e23b67cdcb5797.html',1,'(Global Namespace)']]]
+];

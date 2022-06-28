@@ -1,0 +1,11 @@
+digraph "DistributedTravelingSalesman.Controllers.WorkerController.RemoveWorker"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DistributedTravelingSalesman.\lControllers.WorkerController.Remove\lWorker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DistributedTravelingSalesman.\lService.IWorkerService.RemoveWorker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_distributed_traveling_salesman_1_1_service_1_1_i_worker_service.html#a8de3cac0e53b37ad84b6c7908ad1abe4",tooltip=" "];
+}

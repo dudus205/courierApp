@@ -1,0 +1,16 @@
+digraph "DistributedTravelingSalesman.Dto/obj"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_452ea6784e9073389bd8da6a1fb37125 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,dashed,", label="DistributedTravelingSalesman.Dto", fontname="Helvetica", fontsize="10", URL="dir_452ea6784e9073389bd8da6a1fb37125.html"]
+  subgraph clusterdir_56f24a2083e8f934b1f73f5765794084 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_56f24a2083e8f934b1f73f5765794084.html"]
+    dir_56f24a2083e8f934b1f73f5765794084 [shape=plaintext, label="obj"];
+  dir_555bf3dbd20db84a5f3d15640f20e549 [shape=box, label="Debug", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_555bf3dbd20db84a5f3d15640f20e549.html"];
+  }
+  }
+}

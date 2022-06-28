@@ -24,7 +24,7 @@ public class ParcelController : ControllerBase
         return Ok(await Context.Parcels.ToListAsync());
     }
 
-    [HttpPost]
+    [HttpPost("add")]
     public async Task<IActionResult> AddParcel(AddParcelDto data)
     {
         var parcel = new ParcelEntity

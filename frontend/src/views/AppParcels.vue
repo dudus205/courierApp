@@ -2,8 +2,8 @@
   <v-layout column>
     <v-row>
       <v-col cols="12" class="justify-end">
-        <v-btn depressed color="primary" class="mr-4">Wyznacz trasę</v-btn>
-        <v-btn depressed color="success">Dodaj paczkę</v-btn>
+        <v-btn :to="{name: 'map'}" depressed color="primary" class="mr-4">Wyznacz trasę</v-btn>
+        <v-btn :to="{name: 'scanner'}" depressed color="success">Dodaj paczkę</v-btn>
       </v-col>
       <v-col cols="12">
         <v-data-table

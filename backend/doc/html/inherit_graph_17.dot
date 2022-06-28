@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="DistributedTravelingSalesman.\lDto.FindBestPartialResultRequestDto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_distributed_traveling_salesman_1_1_dto_1_1_find_best_partial_result_request_dto.html",tooltip=" "];
+}

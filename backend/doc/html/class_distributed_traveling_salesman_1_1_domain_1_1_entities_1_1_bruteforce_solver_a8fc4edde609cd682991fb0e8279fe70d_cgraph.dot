@@ -1,0 +1,11 @@
+digraph "DistributedTravelingSalesman.Domain.Entities.BruteforceSolver.Solve"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DistributedTravelingSalesman.\lDomain.Entities.BruteforceSolver.Solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DistributedTravelingSalesman.\lDomain.Entities.BruteforceSolver.\lNextPermutation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_distributed_traveling_salesman_1_1_domain_1_1_entities_1_1_bruteforce_solver.html#abe645f088bcd43613a6db11c2fcf9d41",tooltip=" "];
+}

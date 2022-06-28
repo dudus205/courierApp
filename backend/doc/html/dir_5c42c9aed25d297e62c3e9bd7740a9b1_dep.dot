@@ -1,0 +1,12 @@
+digraph "DistributedTravelingSalesman/Dto"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_a8691a82a80ed80fc662a7e5987a6e69 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,dashed,", label="DistributedTravelingSalesman", fontname="Helvetica", fontsize="10", URL="dir_a8691a82a80ed80fc662a7e5987a6e69.html"]
+  dir_5c42c9aed25d297e62c3e9bd7740a9b1 [shape=box, label="Dto", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_5c42c9aed25d297e62c3e9bd7740a9b1.html"];
+  }
+}

@@ -5,6 +5,8 @@ import DefaultLayout from "@/layouts/DefaultLayout";
 import AppParcels from "@/views/AppParcels";
 import AppHome from "@/views/AppHome";
 import AppRegister from "@/views/AppRegister";
+import AppScanner from "@/views/AppScanner";
+import AppMap from "@/views/AppMap";
 
 Vue.use(VueRouter)
 
@@ -24,7 +26,7 @@ const routes = [
         component: DefaultLayout,
         children: [{
             path: "",
-            redirect: "/home"
+            redirect: "/login"
         }, {
             path: "/home",
             name: "home",
@@ -33,6 +35,14 @@ const routes = [
             path: "/parcel",
             name: "parcel",
             component: AppParcels
+        }, {
+            path: "/scanner",
+            name: "scanner",
+            component: AppScanner
+        }, {
+            path: "/map",
+            name: "map",
+            component: AppMap
         }]
     }
 ]
